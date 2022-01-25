@@ -1,6 +1,4 @@
 # UCAS-AOD-benchmark
-**A benchmark of UCAS-AOD dataset**. (Only Oriented box is tested)
-
 
 ## Introduction
 
