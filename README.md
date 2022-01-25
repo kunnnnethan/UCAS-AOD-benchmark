@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This repositary rearrages files downloaded from UCAS-AOD dataset so that it can be loaded and trained in [R-YOLOv4](https://github.com/kunnnnethan/R-YOLOv4).
+This repositary rearrages files from UCAS-AOD dataset so that it can be loaded and trained in [R-YOLOv4](https://github.com/kunnnnethan/R-YOLOv4).
 
 ## Dataset repare
 
