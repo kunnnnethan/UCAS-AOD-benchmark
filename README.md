@@ -9,8 +9,9 @@ This repositary rearrages files from UCAS-AOD dataset so that it can be loaded a
 1. Download  UCAS-AOD [dataset](https://hyper.ai/datasets/5419).
 2. Unzip dataset package into your root_dir, and rename the folder to `UCAS_AOD`.
 3. Move the`ImageSets` folder which contains `train.txt`, `val.txt`,and `test.txt` into `UCAS_AOD` folder.
-4. Run `data_prepare.py`(modify `data_dir` to your own root path), and you will obtain directory as follow:
+4. Run `data_prepare.py`, and you will obtain directory as follow:
 ```
+data_prepare.py
 UCAS_AOD
 └───AllImages
 │   │   P0001.png
