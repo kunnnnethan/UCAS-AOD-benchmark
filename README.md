@@ -11,31 +11,32 @@ This repositary rearrages files from UCAS-AOD dataset so that it can be loaded a
 3. Move the`ImageSets` folder which contains `train.txt`, `val.txt`,and `test.txt` into `UCAS_AOD` folder.
 4. Run `data_prepare.py`, and you will obtain directory as follow:
 ```
-data_prepare.py
-UCAS_AOD
-└───AllImages
-│   │   P0001.png
-│   │   P0002.png
-│   │	...
-│   └───P1510.png
-└───Annotations
-│   │   P0001.txt
-│   │   P0002.txt
-│   │	...
-│   └───P1510.txt       
-└───ImageSets 
-│   │   train.txt
-│   │   val.txt
-│   └───test.txt  
-└───test
-│   └───...
-└───train
-│   └───...
-└───val
-│   └───...
-└───CAR
-└───PLANE
-└───Neg
+root_dir
+├───data_prepare.py
+└───UCAS_AOD
+    ├───AllImages
+    │   │   P0001.png
+    │   │   P0002.png
+    │   │	...
+    │   └───P1510.png
+    ├───Annotations
+    │   │   P0001.txt
+    │   │   P0002.txt
+    │   │	...
+    │   └───P1510.txt       
+    ├───ImageSets 
+    │   │   train.txt
+    │   │   val.txt
+    │   └───test.txt  
+    ├───test
+    │   └───...
+    ├───train
+    │   └───...
+    ├───val
+    │   └───...
+    ├───CAR
+    ├───PLANE
+    └───Neg
 ```
 
 **notes**: The integrated dataset contains 1510 images, with train set 755, val set 302, test set 452(following DOTA division 5:2:3). Files are numbered from 1-1510, in which `1-510` are cars, `511-1510` are airplanes. Besides, classname is attached to label file in format of  `classname x1 y1 x2 y2 x3 y3 x4 y4 theta lx ly w h ` ,
